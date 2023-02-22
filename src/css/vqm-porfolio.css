@@ -19,6 +19,7 @@ body{
   background-color: var(--metal-black-1);
   width:80%;
   min-height: 800px;
+  height: fit-content;
   margin: 10% auto;
 
   border-style: solid;
@@ -109,6 +110,7 @@ body{
 
 .title{
   margin: auto 30px;
+
 }
 .title h1{
   font-size: 3.5vw;
@@ -169,11 +171,7 @@ body{
   }
 
 }
-
-@media (max-width: 768px) {
-  .banner{
-    width:90%;
-  }
+@media (max-width: 1200px) {
   .banner-welcome{
     grid-column-start: 1;
     grid-column-end: end;
@@ -183,6 +181,7 @@ body{
     grid-column-start: 1;
     grid-column-end: end;
     grid-row-start: auto;
+
   }
   .banner-detail{
     grid-column-start: 1;
@@ -193,16 +192,40 @@ body{
     font-size: 160px;
     margin: 0 auto;
   }
-  .contact-bar{
-    font-size: 30px;
-    text-align: center;
-  }
-  .contact-bar a{
-    padding: 0 5%;
-  }
   .title{
     margin: auto;
     text-align: center;
+
+  }
+  .contact-bar{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .contact-bar a, .contact-bar a:visited{
+    padding: 0 3%;
+  }
+}
+@media (max-width: 375px) {
+  .banner{
+    width:95%;
+    grid-template-columns: [line1] 50% [line2] 50%  [end];
+    grid-template-rows: [row1] 3% [row2] 20% [row3] 15% [row4] 20% [row5] 20% [row6] 25% [end];
+
+  }
+  .title h1{
+    font-size: 8.5vw;
+  }
+  .title h3{
+    font-size: 4vw;
+  }
+  .title h4{
+    font-size: 3vw;
+  }
+}
+@media(min-width: 376px) and  (max-width: 768px) {
+  .banner{
+    width:90%;
   }
   .title h1{
     font-size: 8.5vw;
@@ -216,29 +239,7 @@ body{
 }
 
 @media(min-width: 769px) and (max-width: 1200px) {
-  .banner-welcome{
-    grid-column-start: 1;
-    grid-column-end: end;
-    grid-row-start: auto;
-  }
-  .banner-title{
-    grid-column-start: 1;
-    grid-column-end: end;
-    grid-row-start: auto;
-  }
-  .banner-detail{
-    grid-column-start: 1;
-    grid-column-end: end;
-    grid-row-start: auto;
-  }
-  .vqm-logo{
-    font-size: 160px;
-    margin: 0 auto;
-  }
-  .title{
-    margin: auto;
-    text-align: center;
-  }
+
   .title h1{
     font-size: 7vw;
   }

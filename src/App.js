@@ -39,6 +39,8 @@ const Introduction = () =>(
      in MERN stack development, I possess the skills and expertise to create dynamic web applications that
      are tailored to your unique requirements. My ultimate goal is to work collaboratively with you to
      transform your ideas into reality and empower your enterprise to flourish in the digital realm. </p>
+    <a href="https://revoloero.github.io/vqm-porfolio-v2/">[[ Resume & Porfolio V2 ]]</a>
+    <a href="https://revoloero.github.io/vqm-countries-info/">[[ Country Info App ]]</a>
   </div>
 )
 const Banner = () =>{

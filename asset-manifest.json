@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1069cceb.css",
-    "main.js": "/static/js/main.c4de55e2.js",
-    "static/media/VQM-logo.png": "/static/media/VQM-logo.9737edf0a90a2282ca66.png",
-    "index.html": "/index.html",
-    "main.1069cceb.css.map": "/static/css/main.1069cceb.css.map",
-    "main.c4de55e2.js.map": "/static/js/main.c4de55e2.js.map"
+    "main.css": "/vqm-porfolio-v3git/static/css/main.1069cceb.css",
+    "main.js": "/vqm-porfolio-v3git/static/js/main.4e21252d.js",
+    "static/media/VQM-logo.png": "/vqm-porfolio-v3git/static/media/VQM-logo.9737edf0a90a2282ca66.png",
+    "index.html": "/vqm-porfolio-v3git/index.html",
+    "main.1069cceb.css.map": "/vqm-porfolio-v3git/static/css/main.1069cceb.css.map",
+    "main.4e21252d.js.map": "/vqm-porfolio-v3git/static/js/main.4e21252d.js.map"
   },
   "entrypoints": [
     "static/css/main.1069cceb.css",
-    "static/js/main.c4de55e2.js"
+    "static/js/main.4e21252d.js"
   ]
 }
